@@ -1,6 +1,6 @@
 import openai
 import os
-client = openai.Client(api_key=os.getenv("OPENAI_API_KEY")) 
+client = openai.Client(api_key=os.getenv("")) 
 # Set OpenAI API key from environment variable
 api_key = os.getenv("")
 openai.api_key = 
