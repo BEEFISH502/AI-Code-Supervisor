@@ -2,8 +2,8 @@ import openai
 import os
 client = openai.Client(api_key=os.getenv("OPENAI_API_KEY")) 
 # Set OpenAI API key from environment variable
-api_key = os.getenv("OPENAI_API_KEY")
-openai.api_key = api_key
+api_key = os.getenv("")
+openai.api_key = 
 from openai.types import ChatModel
 def get_code_snippet(prompt):
     """This function sends a request to the OpenAI API with a prompt to generate code and returns the response"""
